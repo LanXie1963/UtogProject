@@ -7,6 +7,7 @@ body{
     border: 2px, solid #000000;
     width: 150px;
     height: 150px;
+    display: flex;
 }
 
 #div_logo {
@@ -18,6 +19,15 @@ body{
 #colors {
     display: flex;
 
+}
+
+#makets {
+    display: flex;
+}
+
+.maket {
+    border: 2px, solid #000000;
+    margin: 10px;
 }
 
 .color {
