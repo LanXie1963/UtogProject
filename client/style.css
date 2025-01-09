@@ -10,6 +10,16 @@ body{
     display: flex;
 }
 
+#div_txt {
+    background-color: blueviolet;
+    border: #000000 2px solid;
+}
+
+h1 {
+    text-align: center;
+    margin: 4px;
+}
+
 #div_logo {
     height: 40px;
     width: 40px;
@@ -23,6 +33,7 @@ body{
 
 #makets {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .maket {
@@ -50,4 +61,149 @@ body{
     align-items: flex-end;
     font-size: 13px;
     font-family: candara;
+}
+
+#maket1 {
+    height: 450px;
+    #div1 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 4px; padding-bottom: 3px;
+        margin-bottom: 10px;
+        border: #000000 1px solid;
+        #div_main{
+            border: #000000 1px solid;
+            padding: 2px;
+            border-radius: 10%;
+        }
+        #div_menu{
+            border: #000000 1px solid;
+            padding: 2px;
+            border-radius: 10%;
+        }
+        #div_aboutUs{
+            border: #000000 1px solid;
+            padding: 2px;
+            border-radius: 10%;
+        }
+    }
+    #div2 {
+        display: flex;
+        justify-content: space-evenly;
+        #div_txt {
+            width: 100px;
+            height: 150px;
+            margin: 5px;
+        }
+        #div_pic {
+            margin: 5px;
+        }
+    }
+    #div3 {
+        display: flex;
+        justify-content: space-evenly;
+        #div_txt {
+            width: 100px;
+            height: 150px;
+            margin: 5px;
+        }
+        #div_pic {
+            margin: 5px;
+        }
+    }
+    h3 {
+        text-align: center;
+        margin: 4px;
+    }
+    h4 {
+        text-align: center;
+        margin: 4px;
+    }
+}
+
+#maket2 {
+    height: 450px;
+    #div1 {
+        display: flex;
+        justify-content: center;
+        border: #000000 1px solid;
+        padding-bottom: 3px;
+        #div_txt {
+            width: 70%; height: 40px;
+            margin-top: 4px;
+        }
+        #div_logo {
+            margin-top: 4px;
+        }
+    }
+    #div2 {
+        display: flex;
+        justify-content: space-evenly;
+        #div_txt {
+            width: 100px;
+            height: 150px;
+            margin: 5px;
+        }
+        #div_pic {
+            margin: 5px;
+        }
+    }
+    h3 {
+        text-align: center;
+        margin: 4px;
+    }
+    #div3 {
+        display: flex;
+        justify-content: space-evenly;
+        #div_pic {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 4px;
+        } 
+    }
+    #div_txt {
+            height: 60px;
+            margin-left: 4px; margin-right: 4px;
+
+        }
+}
+#maket3 {
+    width: 280px; height: 450px;
+    #div1{
+        padding-bottom: 5px;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        border: #000000 1px solid;
+        .divs_menu {
+            padding: 1px;
+            border: #000000 1px solid;
+            margin: 4px;
+            border-radius: 10%;
+        }
+        
+    }
+    #div2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5px;
+    }
+    #div3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        #div_txt {
+            width: 90%; height: 60px;
+            margin: 5px;
+        }
+        #div_pic {
+            width: 250px; height: 100px;
+        }
+    }
+    h3 {
+        text-align: center;
+        margin: 4px;
+    }
 }
