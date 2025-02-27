@@ -2,6 +2,22 @@ body{
     background-color: rgb(255, 241, 217);
 }
 
+#firstInput {
+    border-radius: 40px 0px 0px 40px;
+    height: 40px;
+    width: 250px;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+#firstButton{
+    display: flex;
+    
+    border-radius: 0px 40px 40px 0px;
+    height: 45px;
+    margin: 0px;
+}
+
 #div_pic {
     border: 2px, solid #000000;
     width: 150px;
