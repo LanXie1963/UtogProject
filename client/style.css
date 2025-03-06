@@ -11,8 +11,6 @@ body{
 }
 
 #firstButton{
-    display: flex;
-    
     border-radius: 0px 40px 40px 0px;
     height: 45px;
     margin: 0px;
