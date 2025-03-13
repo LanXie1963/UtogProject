@@ -23,33 +23,6 @@ body{
     display: flex;
 }
 
-.color1 {
-    background-color: #fff8b8;
-    color: #000000;
-}
-
-.color2 {
-    background-color: rgb(43, 43, 117);
-    color: #fff8b8;
-}
-
-.color3 {
-    background-color: #fdc426;
-    color: #000;
-}
-
-.color1_txt {
-    color:#fff8b8
-}
-
-.color2_txt {
-    color: rgb(43, 43, 117);
-}
-
-.color3_txt {
-    color: #fdc426;
-}
-
 #div_txt {
     border: #000000 2px solid;
 }
